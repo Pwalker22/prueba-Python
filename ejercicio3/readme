@@ -1,0 +1,42 @@
+# Rick and Morty API 
+
+Este es un programa en Python que permite iniciar sesión y luego muestra una lista de personajes de la serie **Rick and Morty**, obteniendo sus datos desde la API pública. Además, las imágenes se cargan en segundo plano para evitar que la interfaz se congele.
+
+---
+
+## ¿Cómo funciona?
+
+1. **Login:**  
+   El usuario ingresa un nombre de usuario y contraseña para iniciar sesión. El sistema valida estos datos contra una base de datos local.
+
+2. **Mostrar personajes:**  
+   Si el login es exitoso, se abre una ventana nueva que muestra los personajes obtenidos desde la API de Rick and Morty.  
+
+3. **Carga en segundo plano:**  
+   La información y las imágenes se cargan en hilos (threads) separados para que la ventana no se bloquee mientras se descargan los datos.
+
+4. **Interfaz:**  
+   La lista de personajes es desplazable, mostrando nombre, especie, número de episodio y la imagen de cada personaje.
+
+---
+
+## Archivos principales
+
+- `interfaz.py` — Código principal con la interfaz gráfica, login y visualización de personajes.  
+- `base_datos.py` — Módulo para validar usuarios desde una base de datos SQLite local.  
+- `crear_db.py` — Script para crear la base de datos y usuarios de prueba.  
+- `usuarios.db` — Archivo con la base de datos SQLite donde están almacenados los usuarios.
+
+---
+
+## Requisitos
+
+- Python 3 instalado  
+- Librerías necesarias de Python:  
+  - `tkinter` 
+  - `requests`  
+  - `Pillow` 
+
+comando paar instalar:
+
+pip install requests pillow

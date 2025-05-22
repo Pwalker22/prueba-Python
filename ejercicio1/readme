@@ -1,0 +1,10 @@
+# Ejercicio 1 - Número más frecuente
+
+Este pequeño ejercicio en python devuelve una lista de números, y cuentra cuál es el número que más veces se repite.
+
+## ¿Cómo funciona?
+
+1. El programa recibe una lista de números (por ejemplo: [1, 3, 1, 3, 2, 1]).
+2. Cuenta cuántas veces aparece cada número.
+3. Detecta cuál es el número que aparece más veces.
+4. Si hay varios que se repiten la misma cantidad de veces, elige el numero que sea menor en esa cadena.

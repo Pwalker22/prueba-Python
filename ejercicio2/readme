@@ -1,0 +1,27 @@
+# Buscador de Productos en MercadoLibre
+
+Este es un script en Python que permite buscar productos en MercadoLibre Colombia y muestra la información de los primeros productos encontrados.
+
+## ¿Cómo funciona?
+
+1. El programa pide al usuario una palabra clave (por ejemplo: televisor, celular, computador).
+2. Abre la página de MercadoLibre de forma automática sin mostrar el navegador.
+3. Espera a que carguen los resultados.
+4. Toma los primeros productos encontrados (pueden ser 5 o 10) y muestra:
+   - El título del producto
+   - El precio
+   - El enlace al producto
+5. Imprime los resultados en la consola.
+
+## Requisitos
+
+- Tener instalado Python 3
+- Tener instalado Google Chrome
+
+También necesitas instalar estas librerías de Python:
+
+- selenium  
+- webdriver_manager
+
+Para instalarlas se usa este comando:
+pip install selenium webdriver_manager
